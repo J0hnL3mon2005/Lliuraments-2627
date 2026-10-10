@@ -29,30 +29,52 @@ Siguiente seccion
    
 ***
  
-3. Numero 2
+2. Numero 2
     
 ***
  
-4. Numero 3
+3. Numero 3
        
 ***
  
-5. Numero 3
+4. Numero 4
    
 ***
  
-6. Numero 3
+5. Numero 5
      
 ***
  
-7. Numero 3
+6. Numero 6
    
 ***
  
-8. Numero 3
+7. Numero 7
+
+***
+
+8. Numero 8
 
 Parte Final de la practica (por lo que veo)
 ------
 
 > [!CAUTION]
 > **Eh no se la verdad.**
+
+
+| texto 1 | texto 2 | texto 3 | texto 4 |
+| ------- | ------- | ------- | ------- |
+| **no**      | me      | gustan  | las tablas|
+| **no**      | me      | gustan  | las tablas|
+| **no**      | me      | gustan  | las tablas|
+| **no**      | me      | gustan  | las tablas|
+| **no**      | me      | gustan  | las tablas|
+| **no**      | me      | gustan  | las tablas|
+| **no**      | me      | gustan  | las tablas|
+| **no**      | me      | gustan  | las tablas|
+| **no**      | me      | gustan  | las tablas|
+| **no**      | me      | gustan  | las tablas|
+
+
+
+# Chus al menos un 5 porfaplis.
