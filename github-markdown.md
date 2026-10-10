@@ -25,3 +25,34 @@ Yo me quiero ya de viaje tio, solo quiero aprobar todo antes de irme.
 
 Siguiente seccion
 ------
+1. Numero 1
+   
+***
+ 
+3. Numero 2
+    
+***
+ 
+4. Numero 3
+       
+***
+ 
+5. Numero 3
+   
+***
+ 
+6. Numero 3
+     
+***
+ 
+7. Numero 3
+   
+***
+ 
+8. Numero 3
+
+Parte Final de la practica (por lo que veo)
+------
+
+> [!CAUTION]
+> **Eh no se la verdad.**
