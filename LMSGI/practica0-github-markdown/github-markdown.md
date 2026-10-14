@@ -18,63 +18,61 @@ L’objectiu d’aquest exercici és aprofundir en els conceptes relacionats amb
 >
 > * Ha de fer ús de **metadades** (no confondre amb metallenguatge).
 >
-> * Nose (nariz).
+> * N’ha de facilitar el procés automàtic de les dades per part d’un programa informàtic.
 >
-> * (ser o) No ser.
+> * N’ha de facilitar la representació (o la interpretació) de les dades emmagatzemades.
 
 
-Siguiente seccion
+Un cop hàgiu acabat, prepareu una presentació per a explicar el següent:
 ------
-1. Numero 1
+1. Una introducció als llenguatges de marques: orígens, per a què es fan servir, etc.
    
 ***
  
-2. Numero 2
+2. Una introducció al vostre llenguatge de marques, explicació de les regles que heu definit.
     
 ***
  
-3. Numero 3
+3. Classificar el vostre llenguatge de programació (procedimental i presentació; descriptiu o semàntic) i justificar aquesta classificació.
        
 ***
  
-4. Numero 4
+4. Explicar un cas d’ús en el qual es podria fer servir el vostre llenguatge de marques.
    
 ***
  
-5. Numero 5
+5. Mostrar un exemple de com es fa servir el vostre llenguatge i explicar-lo.
      
 ***
  
-6. Numero 6
+6. Explicar un cas d’ús en el qual el vostre llenguatge de marques no seria el més adient.
    
 ***
  
-7. Numero 7
+7. Justificar per què el vostre llenguatge es pot classificar com "de marques".
 
 ***
 
-8. Numero 8
-
-Parte Final de la practica (por lo que veo)
+Rúbrica d’avaluació
 ------
 
 > [!CAUTION]
-> **Eh no se la verdad.**
+> **Atenció**: l’incompliment de les instruccions de lliurament impliquen la NO correcció de la pràctica i una nota de 0 punts. Cal seguir totes les instruccions estrictament al peu de la lletra.
 
 
-| texto 1 | texto 2 | texto 3 | texto 4 |
+|   | 0 punts | 0,5 punts | 1 punt |
 | ------- | ------- | ------- | ------- |
-| **no**      | me      | gustan  | las tablas|
-| **no**      | me      | gustan  | las tablas|
-| **no**      | me      | gustan  | las tablas|
-| **no**      | me      | gustan  | las tablas|
-| **no**      | me      | gustan  | las tablas|
-| **no**      | me      | gustan  | las tablas|
-| **no**      | me      | gustan  | las tablas|
-| **no**      | me      | gustan  | las tablas|
-| **no**      | me      | gustan  | las tablas|
-| **no**      | me      | gustan  | las tablas|
+| **Introducció als llenguatges de marques.**      | No s’ha realitzat o conté errors molt greus.      | Explicació superficial o amb errors lleus.  | Explicació clara, detallada i correcta.|
+| **Explicació del llenguatge i regles d’ús**      | No s’ha realitzat o conté errors molt greus.     | Explicació superficial o amb errors lleus.  | Explicació clara, detallada i correcta.|
+| **Cas d’ús (si s’adapta)**      | No s’ha realitzat o conté errors molt greus.      | Explicació superficial o amb errors lleus.  | Explicació clara, detallada i correcta.|
+| **Cas d’ús (no s’adapta)**      | No s’ha realitzat o conté errors molt greus.      | Explicació superficial o amb errors lleus.  | Explicació clara, detallada i correcta.|
+| **Exemple**      | No s’ha realitzat o conté errors molt greus.      | Explicació superficial o amb errors lleus.  | Explicació clara, detallada i correcta.|
+| **Classificació**      | No s’ha realitzat o conté errors molt greus.      | gustan  | Explicació clara, detallada i correcta.|
+| **Justificació llenguatge de marques.**      | No s’ha realitzat o conté errors molt greus.      | Explicació superficial o amb errors lleus.  | Explicació clara, detallada i correcta.|
+| **Estil de les transparències**      | No s’ha realitzat o conté errors molt greus.      | Pobre, poc treballat o es nota que s’ha fet a correcuita.  | Correcte, agradable a la vista i homogeni.|
+| **Temps**      | Menys de 3 minuts o més de 7 minuts.      | Menys de 4 minuts o més de 6 minuts.  | Exactament o aproximadament 5 minuts (2:30 per alumne).|
+| **Presència sobre l’escenari**      | No ha presentat      | Li costa expressar-se en públic i mostra dificultats per fer-se entendre.  | S’expressa amb naturalitat i claredat. Se’l veu còmode quan parla en públic.|
 
 
 
-# Chus al menos un 5 porfaplis.
+###### Chus al menos un 5 porfaplis.
