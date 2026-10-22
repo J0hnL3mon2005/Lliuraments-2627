@@ -18,7 +18,9 @@ erDiagram
         string Tipus "NOT NULL"
         int Pes "NOT NULL"
         int Qualitat "NOT NULL"
-        int Medidas "NOT NULL"
+        float Mesures "X"
+        float Mesures "Y"
+        float Mesures "Z"
     }
     Mascota {
         string  Num.Chip "PK"
