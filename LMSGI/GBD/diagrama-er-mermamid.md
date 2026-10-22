@@ -97,6 +97,16 @@ erDiagram
 
 ```
 
+> Item:
+> * Codi (string), (Clau Primaria).
+> * Nom (string) (No es pot deixar com a camp buit).
+> * Equipable (Boolean (Pot ser equipat o pot no ser equipat)) 
+> * Comerciable (Boolean (puede ser comerciado o puede ser no comerciado)) (No es pot deixar com a camp buit)
+> * Força (int)
+> * Agilitat (int)
+> * Carisma (int)
+
+
 ## Relacions
 
 > * El Personatge (que n'ha d'haber com a minim un) pot **equipar** molts o ningun item (Aixo ho pensat d'aquesta forma perque es posible que un personatge no jugable no hi tingui equipat res).
