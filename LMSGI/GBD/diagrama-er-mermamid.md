@@ -101,10 +101,11 @@ erDiagram
 > * Codi (string), (Clau Primaria).
 > * Nom (string) (No es pot deixar com a camp buit).
 > * Equipable (Boolean (Pot ser equipat o pot no ser equipat)) 
-> * Comerciable (Boolean (puede ser comerciado o puede ser no comerciado)) (No es pot deixar com a camp buit)
-> * Força (int)
-> * Agilitat (int)
-> * Carisma (int)
+> * Comerciable (Boolean (Pot ser comerciat o pot no ser comerciat)) (No es pot deixar com a camp buit)
+> * Tipus (string) (No es pot deixar com a camp buit)
+> * Pes (int) (No es pot deixar com a camp buit)
+> * Qualitat (int) (No es pot deixar com a campt buit)
+> * Mesures (int) (No es pot deixar com a camp buit)
 
 
 ## Relacions
