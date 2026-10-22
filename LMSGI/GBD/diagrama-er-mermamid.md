@@ -2,7 +2,7 @@
 
 erDiagram
     Personatge {
-        string DNI "PK"
+        string DNI PK
         string Nom "NOT NULL"
         string Cognom "NOT NULL"
         int Vida
@@ -11,7 +11,7 @@ erDiagram
         int Carisma
     }
     Item {
-        string Codi "PK"
+        string Codi PK
         string Nom "NOT NULL"
         Boolean Equipable
         Boolean Comerciable "NOT NULL" 
@@ -23,12 +23,12 @@ erDiagram
         float Mesures "Z"
     }
     Mascota {
-        string  Num.Chip "PK"
+        string  Num.Chip PK
         string Nom "NOT NULL"
         Boolean Motxilla 
     }
     Enemic {
-        string Codi "PK"
+        string Codi PK
         string Nom "NOT NULL"
         string Tipus "NOT NULL"
         int Nivell 
@@ -38,7 +38,7 @@ erDiagram
         int Carisma
     }
     Habilitat {
-        string Codi "PK"
+        string Codi PK
         string Nom "NOT NULL"
         int Cost 
         int Dany
