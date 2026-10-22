@@ -84,15 +84,16 @@ erDiagram
 > * Carisma (int)
 
 ```mermaid
-Personatge {
-        string DNI PK
-        string Nom "NOT NULL"
-        string Cognom "NOT NULL"
-        int Vida
-        int Força
-        int Agilitat
-        int Carisma
-    }
+erDiagram
+    Personatge {
+            string DNI PK
+            string Nom "NOT NULL"
+            string Cognom "NOT NULL"
+            int Vida
+            int Força
+            int Agilitat
+            int Carisma
+        }
 
 ```
 
