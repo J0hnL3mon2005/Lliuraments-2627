@@ -77,11 +77,11 @@ erDiagram
 > Personatge:
 > * DNI (string), (Clau Primaria).
 > * Nom (string) (No es pot deixar com a camp buit).
-> * Cognom (string) (No es pot deixar com a camp buit)
-> * Vida (int)
-> * Força (int)
-> * Agilitat (int)
-> * Carisma (int)
+> * Cognom (string) (No es pot deixar com a camp buit).
+> * Vida (int).
+> * Força (int).
+> * Agilitat (int).
+> * Carisma (int).
 
 ```mermaid
 erDiagram
@@ -100,13 +100,70 @@ erDiagram
 > Item:
 > * Codi (string), (Clau Primaria).
 > * Nom (string) (No es pot deixar com a camp buit).
-> * Equipable (Boolean (Pot ser equipat o pot no ser equipat)) 
-> * Comerciable (Boolean (Pot ser comerciat o pot no ser comerciat)) (No es pot deixar com a camp buit)
-> * Tipus (string) (No es pot deixar com a camp buit)
-> * Pes (int) (No es pot deixar com a camp buit)
-> * Qualitat (int) (No es pot deixar com a campt buit)
-> * Mesures (int) (No es pot deixar com a camp buit)
+> * Equipable (Boolean (Pot ser equipat o pot no ser equipat)). 
+> * Comerciable (Boolean (Pot ser comerciat o pot no ser comerciat)) (No es pot deixar com a camp buit).
+> * Tipus (string) (No es pot deixar com a camp buit).
+> * Pes (int) (No es pot deixar com a camp buit).
+> * Qualitat (int) (No es pot deixar com a campt buit).
+> * Mesures (float) (Es poden clasificar amb 3 tipus de mesures) (Les mesures poden utilitzar valors decimals).
+>
+```
+erDigram
+    Item {
+            string Codi PK
+            string Nom "NOT NULL"
+            Boolean Equipable
+            Boolean Comerciable "NOT NULL" 
+            string Tipus "NOT NULL"
+            int Pes "NOT NULL"
+            int Qualitat "NOT NULL"
+            float Mesures "X"
+            float Mesures "Y"
+            float Mesures "Z"
+        }
 
+```
+
+> Mascota:
+> * Num.Chip (string), (Clau Primaria).
+> * Nom (string), (No es pot deixar com a camp buit).
+> * Motxilla (boolean (Pot tenir equipat un equipat un item o no).
+
+```
+erDiagram
+
+Mascota {
+        string  Num.Chip PK
+        string Nom "NOT NULL"
+        Boolean Motxilla 
+    }
+
+```
+
+> Enemic
+> * Codi (string), (clau primaria).
+> * Nom (string), (No es pot deixar com a camp buit).
+> * Tipus (string), (No es pot deixar com a camp buit).
+> * Nivell (int).
+> * Vida (int).
+> * Força (int).
+> * Agilitat (int).
+> * Carisma (int).
+>
+```
+erDiagram
+    Enemic {
+            string Codi PK
+            string Nom "NOT NULL"
+            string Tipus "NOT NULL"
+            int Nivell 
+            int Vida
+            int Força
+            int Agilitat
+            int Carisma
+        }
+```
+> Habilitat
 
 ## Relacions
 
