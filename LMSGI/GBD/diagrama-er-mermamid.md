@@ -163,6 +163,9 @@ erDiagram
             int Carisma
         }
 ```
+
+
+
 ## Habilitat
 > * Codi (string), (Clau Primaria).
 > * Nom (string), (No es pot deixar com a camp buit).
