@@ -72,9 +72,9 @@ erDiagram
 >
 
 
-## Atributs
+# Atributs
 
-> Personatge:
+## Personatge:
 > * DNI (string), (Clau Primaria).
 > * Nom (string) (No es pot deixar com a camp buit).
 > * Cognom (string) (No es pot deixar com a camp buit).
@@ -97,7 +97,7 @@ erDiagram
 
 ```
 
-> Item:
+## Item:
 > * Codi (string), (Clau Primaria).
 > * Nom (string) (No es pot deixar com a camp buit).
 > * Equipable (Boolean (Pot ser equipat o pot no ser equipat)). 
@@ -107,7 +107,7 @@ erDiagram
 > * Qualitat (int) (No es pot deixar com a campt buit).
 > * Mesures (float) (Es poden clasificar amb 3 tipus de mesures) (Les mesures poden utilitzar valors decimals).
 >
-```
+```mermaid
 erDigram
     Item {
             string Codi PK
@@ -124,12 +124,12 @@ erDigram
 
 ```
 
-> Mascota:
+## Mascota:
 > * Num.Chip (string), (Clau Primaria).
 > * Nom (string), (No es pot deixar com a camp buit).
 > * Motxilla (boolean (Pot tenir equipat un equipat un item o no).
 
-```
+```mermaid
 erDiagram
 
 Mascota {
@@ -140,7 +140,7 @@ Mascota {
 
 ```
 
-> Enemic
+## Enemic
 > * Codi (string), (clau primaria).
 > * Nom (string), (No es pot deixar com a camp buit).
 > * Tipus (string), (No es pot deixar com a camp buit).
@@ -150,7 +150,7 @@ Mascota {
 > * Agilitat (int).
 > * Carisma (int).
 >
-```
+```mermaid
 erDiagram
     Enemic {
             string Codi PK
@@ -163,9 +163,15 @@ erDiagram
             int Carisma
         }
 ```
-> Habilitat
+## Habilitat
+> * Codi (string), (Clau Primaria).
+> * Nom (string), (No es pot deixar com a camp buit).
+> * Cost (int).
+> * Dany (int).
+> * Cooldown (float), (les habilitats poden tardar decimals de segon per poder ser utilitzades).
+> * Tipus (string), (No es pot deixar com a camp buit).
 
-## Relacions
+# Relacions
 
 > * El Personatge (que n'ha d'haber com a minim un) pot **equipar** molts o ningun item (Aixo ho pensat d'aquesta forma perque es posible que un personatge no jugable no hi tingui equipat res).
 >
