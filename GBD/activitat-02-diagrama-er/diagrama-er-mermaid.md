@@ -111,17 +111,17 @@ erDiagram
 >
 ```mermaid
 erDigram
-    Item {
-            string Codi PK
-            string Nom "NOT NULL"
-            Boolean Equipable
-            Boolean Comerciable "NOT NULL" 
-            string Tipus "NOT NULL"
-            int Pes "NOT NULL"
-            int Qualitat "NOT NULL"
-            float Mesures "X"
-            float Mesures "Y"
-            float Mesures "Z"
+Item {
+    string Codi PK
+    string Nom "NOT NULL"
+    Boolean Equipable
+    Boolean Comerciable "NOT NULL" 
+    string Tipus "NOT NULL"
+    int Pes "NOT NULL"
+    int Qualitat "NOT NULL"
+    float Mesures "X"
+    float Mesures "Y"
+    float Mesures "Z"
         }
 
 ```
