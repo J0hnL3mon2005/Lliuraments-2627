@@ -110,7 +110,7 @@ erDiagram
 > * Mesures (float) (Es poden clasificar amb 3 tipus de mesures) (Les mesures poden utilitzar valors decimals).
 >
 ```mermaid
-erDigram
+erDiagram
 Item {
     string Codi PK
     string Nom "NOT NULL"
